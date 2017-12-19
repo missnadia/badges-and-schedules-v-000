@@ -10,6 +10,6 @@ def assign_rooms(room_assignments)
 end
 
 def printer
-  puts "#{batch_badge_creator(attendees)}"
+  puts "#{badge_maker(attendees)}"
   puts "#{assign_rooms(room_assignments)}"
 end
